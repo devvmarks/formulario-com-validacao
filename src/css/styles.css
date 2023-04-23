@@ -80,6 +80,7 @@
     font-size: 18px;
     color: #fff
 }
+
 .container .infos .form .alerta {
     align-self: flex-start;
     padding-left: 45px;
@@ -88,4 +89,12 @@
     display: none;
 }
 
+/* JS */
 
+.invalido-border {
+    border: 1px solid red;
+}
+
+.valido-border {
+    border: 1px solid #3CCC87;
+}
