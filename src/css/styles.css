@@ -1,0 +1,91 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url(../images/bg-repeat.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+}
+
+.container .texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .texto .titulo {
+    width: 380px;
+    height: 56px;
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #fff
+}
+
+.container .texto .subtitulo {
+    width: 380px;
+    height: 74px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff
+}
+
+.container .infos {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.container .infos .form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 2px;
+    width: 500px;
+    height: 600px;
+}
+
+.container .infos .form .campo {
+    width: 400px;
+    height: 85px;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+.container .infos .form .campo.texto-do-campo {
+    padding-left: 15px;
+}
+
+.container .infos .form .campo.mensagem {
+    height: 220px;
+
+}
+
+.container .infos .form .campo-obrigatorio {
+    align-self: flex-start;
+    padding: 15px 30px;
+}
+
+.container .infos .form .campo.submit {
+    margin-bottom: 25px;
+    background-color: #3CCC87;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff
+}
+.container .infos .form .alerta {
+    align-self: flex-start;
+    padding-left: 45px;
+    font-weight: 400;
+    font-size: 12px;
+    display: none;
+}
+
+
